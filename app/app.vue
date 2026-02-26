@@ -29,7 +29,7 @@ provide('navigation', navigation)
 
 <template>
   <UApp>
-    <NuxtLoadingIndicator />
+    <NuxtLoadingIndicator :throttle="0" color="var(--color-primary)"/>
 
     <AppHeader />
 
