@@ -2,25 +2,33 @@
 // Docus already includes: @nuxt/ui, @nuxt/content, @nuxt/image, nuxt-og-image,
 // nuxt-llms, @nuxtjs/mcp-toolkit, @nuxtjs/robots
 export default defineNuxtConfig({
-  css: ['~/assets/css/main.css', '~/assets/css/comfortaa-fonts.css'],
+  css: ["~/assets/css/main.css", "~/assets/css/comfortaa-fonts.css"],
 
-  content: {
-    build: {
-      markdown: {
-        toc: {
-          searchDepth: 1
-        }
-      }
-    }
-  },
-
-  compatibilityDate: '2024-07-11',
+  compatibilityDate: "2024-07-11",
 
   nitro: {
     prerender: {
-      routes: ['/'],
+      routes: ["/"],
       crawlLinks: true,
-      autoSubfolderIndex: false
-    }
+      autoSubfolderIndex: false,
+    },
+  },
+
+  site: {
+    url: "https://docs.lolia.link",
+    name: "LoliaFRP 文档",
+  },
+
+  llms: {
+    domain: "https://docs.lolia.link",
+  },
+
+  icon: {
+    customCollections: [
+      {
+        prefix: "custom",
+        dir: "./app/assets/icons",
+      },
+    ],
   }
-})
+});

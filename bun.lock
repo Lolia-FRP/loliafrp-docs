@@ -14,7 +14,6 @@
     },
   },
   "overrides": {
-    "//unimport": "Github Issues https://github.com/nuxt-content/docus/issues/1289 需要在上游修复后移除依赖锁定",
     "unimport": "5.6.0",
   },
   "packages": {
