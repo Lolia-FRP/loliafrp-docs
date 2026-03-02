@@ -1,6 +1,6 @@
 ---
 seo:
-  title: LoliaFRP 文档
+  title: 首页
   description: 在这里你可以找到关于 LoliaFRP 的文档
 ---
 
@@ -40,26 +40,6 @@ LoliaFRP [Documentation]{.text-primary}
   :::
 
 #default
-  :::prose-pre
-  ---
-  code: |
-    lolia-cli -t 114:abcdefgjhijklmnopqrstuvwxyz123456
-        __          ___       __________  ____        ________    ____
-       / /   ____  / (_)___ _/ ____/ __ \/ __ \      / ____/ /   /  _/
-      / /   / __ \/ / / __ `/ /_  / /_/ / /_/ /_____/ /   / /    / /  
-     / /___/ /_/ / / / /_/ / __/ / _, _/ ____/_____/ /___/ /____/ /   
-    /_____/\____/_/_/\__,_/_/   /_/ |_/_/          \____/_____/___/   
-                                                                      
-    2:25AM INFO <banner/banner.go:17> LoliaFRP-CLI: Nya! LoliaFRP-CLI 0.67.0 启动中
-    2:25AM INFO <sub/root.go:213> LoliaFRP-CLI: 已获取到配置文件 隧道名称=MC 联机 使用节点=阿里云杭州-1
-    2:25AM INFO <client/service.go:335> LoliaFRP-CLI: 尝试连接到服务器...
-    2:25AM INFO <client/service.go:327> LoliaFRP-CLI: [1145141919810] 登录服务器成功, 获取 run id [1145141919810]
-    2:25AM INFO <proxy/proxy_manager.go:180> LoliaFRP-CLI: [1145141919810] 添加隧道: [1.abcdefgjhijklmnopqrstuvwxyz123456]
-    2:25AM INFO <client/control.go:174> LoliaFRP-CLI: [1145141919810] [1.abcdefgjhijklmnopqrstuvwxyz123456] 成功启动隧道
-    2:25AM INFO <client/control.go:205> LoliaFRP-CLI: [1145141919810] [1.abcdefgjhijklmnopqrstuvwxyz123456] 您可通过 114514.com:1145 访问您的服务
-  filename: terminal
-  ---
-
   ```bash [terminal]
   lolia-cli -t 114:abcdefgjhijklmnopqrstuvwxyz123456
       __          ___       __________  ____        ________    ____
@@ -76,7 +56,6 @@ LoliaFRP [Documentation]{.text-primary}
   2:25AM INFO <client/control.go:174> LoliaFRP-CLI: [1145141919810] [1.abcdefgjhijklmnopqrstuvwxyz123456] 成功启动隧道
   2:25AM INFO <client/control.go:205> LoliaFRP-CLI: [1145141919810] [1.abcdefgjhijklmnopqrstuvwxyz123456] 您可通过 114514.com:1145 访问您的服务
   ```
-  :::
 ::
 
 ::u-page-section{class="dark:bg-neutral-950"}

@@ -1,44 +1,30 @@
 export default defineAppConfig({
   ui: {
     colors: {
-      primary: 'pink',
-      neutral: 'slate'
+      primary: "pink",
+      neutral: "slate",
     },
     footer: {
       slots: {
-        root: 'border-t border-default',
-        left: 'text-sm text-muted'
-      }
-    }
+        root: "border-t border-default",
+        left: "text-sm text-muted",
+      },
+    },
+  },
+  docus: {
+    locale: "zh-CN",
   },
   seo: {
-    siteName: 'LoliaFRP 文档'
+    title: "LoliaFRP Docs",
+    description: "LoliaFRP 的官方文档",
   },
   header: {
-    title: '',
-    to: '/',
+    title: "LoliaFRP Docs",
     logo: {
-      alt: '',
-      light: '',
-      dark: ''
+      light: "/icons/logo-text.svg",
+      dark: "/logo/logo-light.svg",
+      alt: "LoliaFRP Logo",
+      favicon: "/favicon.ico",
     },
-    search: true,
-    colorMode: true,
-    links: [{
-      'icon': 'i-simple-icons-github',
-      'to': 'https://github.com/Lolia-FRP',
-      'target': '_blank',
-      'aria-label': 'GitHub 仓库'
-    }]
   },
-  footer: {
-    credits: `基于 Nuxt UI 构建 • © ${new Date().getFullYear()} Lolia Team`,
-    colorMode: false,
-    links: [{
-      'icon': 'i-simple-icons-github',
-      'to': 'https://github.com/Lolia-FRP',
-      'target': '_blank',
-      'aria-label': '在 GitHub 查看 Lolia FRP'
-    }]
-  }
-})
+});

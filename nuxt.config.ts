@@ -1,61 +1,34 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+// Docus already includes: @nuxt/ui, @nuxt/content, @nuxt/image, nuxt-og-image,
+// nuxt-llms, @nuxtjs/mcp-toolkit, @nuxtjs/robots
 export default defineNuxtConfig({
-  modules: [
-    '@nuxt/eslint',
-    '@nuxt/image',
-    '@nuxt/ui',
-    '@nuxt/content',
-    'nuxt-og-image',
-    'nuxt-llms',
-    '@nuxtjs/mcp-toolkit'
-  ],
+  css: ["~/assets/css/main.css", "~/assets/css/comfortaa-fonts.css"],
 
-  devtools: {
-    enabled: true
-  },
-
-  css: ['~/assets/css/main.css', '~/assets/css/comfortaa-fonts.css'],
-
-  content: {
-    build: {
-      markdown: {
-        toc: {
-          searchDepth: 1
-        }
-      }
-    }
-  },
-
-  experimental: {
-    asyncContext: true
-  },
-
-  compatibilityDate: '2024-07-11',
+  compatibilityDate: "2024-07-11",
 
   nitro: {
     prerender: {
-      routes: ['/'],
+      routes: ["/"],
       crawlLinks: true,
-      autoSubfolderIndex: false
-    }
+      autoSubfolderIndex: false,
+    },
   },
 
-  eslint: {
-    config: {
-      stylistic: {
-        commaDangle: 'never',
-        braceStyle: '1tbs'
-      }
-    }
+  site: {
+    url: "https://docs.lolia.link",
+    name: "LoliaFRP 文档",
+  },
+
+  llms: {
+    domain: "https://docs.lolia.link",
   },
 
   icon: {
-    provider: 'iconify',
     customCollections: [
       {
-        prefix: 'custom',
-        dir: './app/assets/icons'
-      }
-    ]
+        prefix: "custom",
+        dir: "./app/assets/icons",
+      },
+    ],
   }
-})
+});
