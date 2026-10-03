@@ -20,7 +20,7 @@ LoliaFRP [Documentation]{.text-primary}
 #links
   :::u-button
   ---
-  to: /getting-started
+  to: /what-is-lolia
   size: xl
   trailing-icon: i-lucide-arrow-right
   ---
