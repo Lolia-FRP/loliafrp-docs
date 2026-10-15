@@ -10,10 +10,10 @@
   },
   "dependencies": {
     "docus": "latest",
-    "better-sqlite3": "^12.6.2",
+    "better-sqlite3": "^12.11.1",
     "minimark": "^0.2.0",
-    "ufo": "^1.6.3",
-    "zod": "^4.3.6"
+    "ufo": "^1.6.4",
+    "zod": "^4.6.7"
   },
   "overrides": {
     "unimport": "5.6.0"
