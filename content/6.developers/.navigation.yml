@@ -1,3 +1,4 @@
 title: 开发者
 navigation:
   icon: i-lucide-folder-code
+  defaultOpen: false
