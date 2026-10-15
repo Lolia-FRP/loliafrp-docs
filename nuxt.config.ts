@@ -2,6 +2,7 @@
 // Docus already includes: @nuxt/ui, @nuxt/content, @nuxt/image, nuxt-og-image,
 // nuxt-llms, @nuxtjs/mcp-toolkit, @nuxtjs/robots
 
+import { fileURLToPath } from "node:url";
 import footnoteI18n from "./markdown/footnote-i18n";
 
 export default defineNuxtConfig({
@@ -33,6 +34,9 @@ export default defineNuxtConfig({
         rehypePlugins: {
           "footnote-i18n": {
             instance: footnoteI18n,
+            // @nuxtjs/mdc 会按 `src || 插件名` 生成运行时 import，
+            // 不写 src 就会去找名为 "footnote-i18n" 的 npm 包。
+            src: fileURLToPath(new URL("./markdown/footnote-i18n.ts", import.meta.url)),
             options: {
               label: "参考",
               backLabel: "返回正文",
