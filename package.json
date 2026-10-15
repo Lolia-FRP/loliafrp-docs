@@ -9,7 +9,7 @@
     "preview": "nuxt preview"
   },
   "dependencies": {
-    "docus": "latest",
+    "docus": "5.15.0",
     "better-sqlite3": "^12.11.1",
     "minimark": "^0.2.0",
     "ufo": "^1.6.4",

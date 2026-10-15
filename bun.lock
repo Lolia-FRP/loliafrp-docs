@@ -6,7 +6,7 @@
       "name": "my-docs",
       "dependencies": {
         "better-sqlite3": "^12.11.1",
-        "docus": "latest",
+        "docus": "5.15.0",
         "minimark": "^0.2.0",
         "ufo": "^1.6.4",
         "zod": "^4.6.7",

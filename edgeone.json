@@ -1,0 +1,5 @@
+{
+  "installCommand": "npx -y bun@1.4.2 install --frozen-lockfile",
+  "buildCommand": "npx -y bun@1.4.2 run generate",
+  "outputDirectory": ".output/public"
+}
