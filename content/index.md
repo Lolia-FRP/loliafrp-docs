@@ -12,7 +12,7 @@ orientation: horizontal
 :hero-background
 
 #title
-LoliaFRP [Documentation]{.text-primary}
+Lolia FRP [Documentation]{.text-primary}
 
 #description
 在这里你可以找到关于 LoliaFRP 的文档，包括客户端，使用教程，注意事项等等
