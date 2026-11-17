@@ -11,7 +11,7 @@ description: Lolia CLI 参考概览页。
 | [参数与子命令](/references/lolia-frpc/flags) | 全局参数、子命令、生效优先级 |
 | [AutoTLS](/references/lolia-frpc/autotls) | 证书自动申请的插件参数与限制 |
 | [运行与诊断](/references/lolia-frpc/runtime) | 日志、退出码、报错信息 |
-| [构建与发布](/references/lolia-frpc/release) | 平台矩阵、发布包内容、校验 |
+| [构建与发布](/references/lolia-frpc/release) | 构建参数、发布流程、平台矩阵、校验 |
 
 ## 与上游的关系
 
