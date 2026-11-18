@@ -12,11 +12,11 @@
 
 除非特别说明，本仓库中的**原创文档内容**采用：
 
-**Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International**
+**Creative Commons Attribution 4.0 International**
 
 完整协议请参阅：
 
-https://creativecommons.org/licenses/by-nc-sa/4.0/
+https://creativecommons.org/licenses/by/4.0/
 
 ## 关于第三方内容
 
